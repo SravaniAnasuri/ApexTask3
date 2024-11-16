@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+    
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="logo">
+            <img src="https://thumbs.dreamstime.com/z/coffee-shop-house-logo-design-175309827.jpg" alt="Coffee Shop Logo">
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to Our Coffee House</h1>
+            <p>Enjoy the finest coffee in town</p>
+        </div>
+    </section>
+
+
+    <!-- Image Carousel -->
+    <section id="carousel" class="carousel">
+        <h2>Our Coffee Varieties</h2>
+        <div class="carousel-container">
+            <div class="carousel-images">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwGOMiuUX-VODP61GjUztqmuwo-iwYxfhh4w&s" alt="Coffee 1">
+                <img src="data:image/jpeg;base64,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" alt="Coffee 2">
+                <img src="https://cdn.shopify.com/s/files/1/0366/8780/6508/files/what_you_need_to_make_a_espresso_Coffee_2048x2048.jpg?v=1657807940" width="400" height="400" alt="Coffee 3">
+                <img src="https://marleysmenu.com/wp-content/uploads/2021/07/Coffee-Milkshake-3-Ways-Featured-Image-770x770.jpg" alt="Coffee 4">
+            </div>
+        </div>
+        <button id="prev" class="carousel-btn">←</button>
+        <button id="next" class="carousel-btn">→</button>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="https://media.istockphoto.com/id/1308045723/photo/cold-coffee-frappuccino.jpg?s=612x612&w=0&k=20&c=drB225PkXKnjRzym-06I3rQs2dawXXb2mxsdbkj9aK0=" alt="Mocha">
+                <h3>Mocha</h3>
+                <p>₹200.00</p>
+                <button>Add Item</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRX9DKlxtchtn7AERqa28_iZq2JvEm_-uGJA&s" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>₹250.00</p>
+                <button>Add Item</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.shutterstock.com/image-photo/ice-coffee-tall-glass-cream-600nw-2333005689.jpg" alt="Cappuccino">
+                <h3>Coffee Shake Royalty</h3>
+                <p>₹280.00</p>
+                <button>Add Item</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo5HnJX97iFyQ0V7kOWRTJXlhg8vbQ_UUb7g&s" alt="Iced coffee">
+                <h3>Iced coffee</h3>
+                <p>₹150.00</p>
+                <button>Add Item</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdizHtCA7Of0bd5AYG777TzuMJ9jk9V_2puw&s" width="200" height="200" alt="cofffee milkshake">
+                <h3>Cappuccino</h3>
+                <p>₹250.00</p>
+                <button>Add Item</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://cdn.shopify.com/s/files/1/0366/8780/6508/files/what_you_need_to_make_a_espresso_Coffee_2048x2048.jpg?v=1657807940" alt="Latte">
+                <h3>Latte</h3>
+                <p>₹250.00</p>
+                <button>Add Item</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz">
+        <h2>Coffee Quiz: Test Your Knowledge</h2>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What is the main ingredient in a latte?</p>
+                <input type="radio" id="q1a" name="q1" value="A">
+                <label for="q1a">A) Milk</label><br>
+                <input type="radio" id="q1b" name="q1" value="B">
+                <label for="q1b">B) Coffee beans</label><br>
+                <input type="radio" id="q1c" name="q1" value="C">
+                <label for="q1c">C) Water</label><br>
+            </div>
+            <div class="question">
+                <p>2. What does the term "espresso" refer to?</p>
+                <input type="radio" id="q2a" name="q2" value="A">
+                <label for="q2a">A) A brewing method</label><br>
+                <input type="radio" id="q2b" name="q2" value="B">
+                <label for="q2b">B) A type of bean</label><br>
+                <input type="radio" id="q2c" name="q2" value="C">
+                <label for="q2c">C) A kind of milk foam</label><br>
+            </div>
+            <div class="question">
+                <p>3. What is the origin of coffee?</p>
+                <input type="radio" id="q3a" name="q3" value="A">
+                <label for="q3a">A) Italy</label><br>
+                <input type="radio" id="q3b" name="q3" value="B">
+                <label for="q3b">B) Ethiopia</label><br>
+                <input type="radio" id="q3c" name="q3" value="C">
+                <label for="q3c">C) Brazil</label><br>
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+        <div id="quiz-result"></div>
+    </section>
+
+    <!-- Joke Section - Fetch data from API -->
+    <section id="joke" class="joke">
+        <h2>Need a Laugh?</h2>
+        <p id="joke-text">Loading joke...</p>
+        <button id="fetch-joke">Get a Joke</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div id="contact" class="contact">
+            <h2>Contact </h2>
+        </div>
+        <div class="logo">
+            <img src="https://thumbs.dreamstime.com/z/coffee-shop-house-logo-design-175309827.jpg" alt="Coffee Shop Logo">
+        </div>
+        <h4>Contact:00987654321  &copy; 2024 Coffee Shop. All rights reserved. </h4>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
